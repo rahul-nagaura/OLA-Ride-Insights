@@ -2,4 +2,4 @@
 Project Title: OLA Data Analyst Project
 Problem Statement
 The objective is to develop an insightful, interactive dashboard using Power BI to analyze OLA’s ride-sharing data. The dashboard is designed to provide real-time insights into ride volumes, booking statuses, cancellations, revenue sources, and driver/customer ratings, enabling OLA's management to make data-driven decisions for improving operational efficiency and customer satisfaction.
-![Alt Text]([relative/path/to/image.png](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Cancellation.png))
+![Alt Text](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Cancellation.png)

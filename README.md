@@ -1,84 +1,76 @@
-# **OLA-Ride-Insights**
+# OLA Ride Insights - Power BI Dashboard
 
-## **Project Title: OLA Data Analyst Project**
+## Project Overview
 
-### **Problem Statement**
-The objective is to develop an insightful, interactive dashboard using Power BI to analyze OLA’s ride-sharing data. The dashboard provides real-time insights into ride volumes, booking statuses, cancellations, revenue sources, and driver/customer ratings, enabling OLA's management to make data-driven decisions for improving operational efficiency and customer satisfaction.
+This project involved the development of an interactive Power BI dashboard to analyze OLA's ride-sharing data. The dashboard provides real-time insights into key performance indicators (KPIs), booking trends, and customer/driver behavior. The aim was to enable data-driven decisions for improving operational efficiency and customer satisfaction.
 
----
+## Problem Statement
 
-## **Link to Power BI Report**
-[View Power BI Report](link)
+The objective was to create a Power BI dashboard that allows OLA's management to:
 
----
+*   Visualize ride volumes and booking patterns.
+*   Analyze cancellation trends and identify contributing factors.
+*   Understand revenue sources and payment method preferences.
+*   Assess customer and driver ratings to identify areas for improvement.
 
-## **Steps Followed**
+## Link 
 
-**Step 1: Load Data**
-- Import the dataset (Excel file) into Power BI.
+[View](https://github.com/rahul-nagaura/OLA-Ride-Insights)  
 
-**Step 2: Data Preprocessing**
-- Use Power Query Editor for data cleaning:
-  - Handle missing or incorrect values.
-  - Profile columns for data quality.
+## Steps Followed
 
-**Step 3: Data Transformation**
-- Create custom columns and measures for KPIs like:
-  - Average ride distance
-  - Total revenue
-  - Customer and driver ratings
+1.  **Data Loading:** Imported the OLA ride data (Excel file) into Power BI Desktop.
+2.  **Data Preprocessing (Power Query):**
+    *   Cleaned the data by handling missing or incorrect values.
+    *   Profiled columns to ensure data quality and consistency.
+3.  **Data Transformation & KPI Creation:**
+    *   Created custom columns and measures to calculate KPIs, including:
+        *   Average Ride Distance
+        *   Total Revenue
+        *   Customer Rating
+        *   Driver Rating
+4.  **Dashboard Design:**
+    *   Implemented slicers for dynamic filtering by region, ride type, date, etc.
+    *   Created visualizations: bar charts, pie charts, scatter plots, and maps to represent the data effectively.
+5.  **Theme & Customization:**
+    *   Applied a color theme consistent with OLA's brand.
+    *   Added logos and relevant images for a professional presentation.
+6.  **Advanced Features:**
+    *   Categorized customers based on ride frequency and total value.
+    *   Implemented dynamic filters to allow users to explore specific data segments.
 
-**Step 4: Designing the Dashboard**
-- Add slicers for dynamic filtering (e.g., by region, ride type).
-- Create visuals: bar charts, pie charts, scatter plots, etc.
+## Key Insights
 
-**Step 5: Theme & Customization**
-- Apply a color theme matching OLA’s brand.
-- Add logos and images for presentation.
+The analysis of OLA's ride data revealed the following key insights:
 
-**Step 6: Advanced Features**
-- Categorize customers by ride frequency or total value.
-- Implement dynamic filters to adjust data based on user selections.
+1.  **Ride Volume Trends:** Higher ride volumes are observed during weekends and public holidays.
+2.  **Vehicle Type Preferences:** SUVs and Hatchbacks are the most popular vehicle types among riders.
+3.  **Revenue Sources:** UPI is the dominant payment method, followed by Credit Card and COD.
+4.  **Cancellation Trends:** The most common reasons for cancellations are "Driver No-Show" and "Customer Canceled."
+5.  **Customer & Driver Ratings:** Average customer ratings are slightly higher than driver ratings, suggesting potential areas for driver improvement programs.
 
----
+## Visualizations
 
-## **Key Insights from OLA Ride Data**
+*   **Overall Ride Volume:**
 
-1. **Ride Volume and Booking Trends**
-   - Higher ride volumes during weekends and public holidays.
+    ![Overall Ride Volume](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Overall.png)
+*   **Vehicle Type Preferences:**
 
-   ![Overall Ride Volume](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Overall.png)
+    ![Vehicle Type Preferences](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Vehicle%20Type.png)
+*   **Revenue Sources:**
 
-2. **Vehicle Type Preferences**
-   - SUVs and Hatchbacks are the most popular vehicle types.
+    ![Revenue Sources](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Revenue.png)
+*   **Cancellation Trends:**
 
-   ![Vehicle Type Preferences](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Vehicle%20Type.png)
+    ![Cancellation Trends](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Cancellation.png)
+*   **Customer & Driver Ratings:**
 
-3. **Revenue Sources**
-   - UPI is the most common payment method, followed by Credit Card and COD.
+    ![Ratings](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Ratings.png)
 
-   ![Revenue Sources](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Revenue.png)
+## Tools Used
 
-4. **Cancellation Insights**
-   - Common cancellations are due to "Driver No-Show" and "Customer Canceled."
+*   Power BI Desktop
+*   Power Query Editor (for data transformation)
 
-   ![Cancellation Trends](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Cancellation.png)
 
-5. **Customer & Driver Ratings**
-   - Average customer rating is slightly higher than the driver rating, suggesting potential improvement areas for drivers.
 
-   ![Ratings](https://github.com/rahul-nagaura/OLA-Ride-Insights/blob/main/Images/Ratings.png)
-
----
-
-## **About**
-
-This project is focused on creating an interactive Power BI dashboard to provide insights into OLA's ride-sharing data. It enables OLA’s management to analyze key metrics and improve decision-making processes related to operational efficiency and customer satisfaction.
-
----
-
-## **Resources**
-
-- **Data Source**: OLA Ride Data (Excel file)
-- **Tools Used**: Power BI Desktop
-- **Visualizations**: Bar Charts, Pie Charts, Scatter Plots, Histograms
